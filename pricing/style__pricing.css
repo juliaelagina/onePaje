@@ -1,0 +1,78 @@
+
+                    /*******pricing***********/
+.pricing{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgb(241, 241, 241);
+}
+.workArea4 {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 30px 420px 30px ;
+}
+    .pricing__blog{
+         background: white;
+    }
+    .pricing__blog:hover{
+        border-radius: 40px;
+    }
+    .pricing__blog-start{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        padding: 15% 15%;
+    }
+    .pricing__blog-medium{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        padding: 20% 15%;
+    }
+    .pricing__blog-end {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        padding: 15% 15%;
+    }
+        .pricing__price{
+            display: flex;
+            margin: 15px 0;
+            width: 80%;
+            justify-content: space-between;
+        }
+        .pricing__text{
+            margin-bottom: 30px;
+            color: rgb(168, 166, 166);
+            
+        }
+        .pricing__haracteristics{
+            list-style-image: url(img/widgest/line.png);
+        }
+        .pricing__li {
+            margin-top: 10px;
+            color: rgb(51, 50, 50);
+        }
+        .pricing__button {
+            border: none;
+            background: rgb(216, 215, 215) ;
+            margin-top: 40px;
+            width: 120px;
+            height: 40px;
+        }
+        .pricing__button:hover {
+            background: rgb(50, 110, 221);
+        }
+        .pricing__button:hover a{
+            color: white;
+        }
+            .pricing__link{
+                width: 100%;
+                height: 40px;
+                color: rgb(51, 50, 50);
+            }
+            

@@ -1,0 +1,150 @@
+/************WORK*************/
+
+.work__header p{
+    width: 50%;
+}
+.work__galery{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 375px 275px ;
+    grid-gap: 10px;
+    cursor: pointer;
+}
+.work__galery img{
+    width: 100%;
+}
+
+    .work__img-1{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-image: url(../work/img/800x400/01.jpg);
+    }
+    .modalWind1 {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 99999;
+        background-color: rgba(0, 0, 0, 0.253);
+        display: none;
+    }
+        .modalWind1__text {
+            margin: 150px auto;
+            width: 50%;
+            height: 50%;
+            background-color: white;
+            padding: 30px;
+            display: grid;
+            grid-template-columns:70% 30%;
+            grid-template-rows: 30% 70%;
+        }
+                .modalWind1__name{
+                    font-size: 18px;
+                }
+
+                .modalWind1__nameDescr {
+                    margin-top: 10px;
+                    font-size: 10px;
+                    color: rgb(168, 168, 168);
+                }
+            .modalWind1__buttonWrap {
+                display: flex;
+                align-items: flex-start;
+                justify-content: right;
+            }
+                .modalWind1__button {
+                    width: 30PX;
+                    height: 15px;
+                    background: none;
+                    border: none;
+                    cursor: pointer;
+
+                }
+                
+
+            .modalWind1__wrapText {
+                    font-size: 12px;
+                    margin-right: 10px;
+                    padding-right: 20px;
+                    border-right: 1px gray solid;
+            }
+            .modalWind1__wrapText p{
+                color: rgb(153, 153, 153);
+            }
+                .modalWind1__text2 {
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                }
+                
+
+            .modalWind1__wrapWorcers {
+                padding: 10px;
+                font-size: 12px;
+
+            }
+            .modalWind1__wrapWorcers div{
+                margin-bottom: 10px;
+                display: flex;
+                justify-content: space-between;
+            }
+                .modalWind1__worcer {
+                    font-size: 12px;
+                }
+                .modalWind1__worcerWork{
+                    
+                color: rgb(153, 153, 153);
+                }
+
+
+
+
+
+
+
+    .work__img-1:hover{
+        background-image: url(../work/img/dark-img/01\ \(1\).jpg);
+    }
+    .work__img-2{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-image: url(../work/img/397x415/01.jpg);
+    }
+    .work__img-2:hover {
+        background-image: url(../work/img/dark-img/01\ \(2\).jpg);
+    }
+   .work__img-3{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-image: url(../work/img/397x300/01.jpg);
+    }
+    .work__img-3:hover {
+        background-image: url(../work/img/dark-img/01.jpg);
+    }
+    .work__img-4{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-image: url(../work/img/397x300/02.jpg);
+    }
+    .work__img-4:hover {
+        background-image: url(../work/img/dark-img/02.jpg);
+    }
+    .work__img-5{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-image: url(../work/img/397x300/03.jpg);
+    }
+    .work__img-5:hover {
+        background-image: url(../work/img/dark-img/03.jpg);
+    }
